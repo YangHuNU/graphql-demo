@@ -1,0 +1,7 @@
+query Posts {
+  posts {
+    __typename
+    id
+    title
+  }
+}

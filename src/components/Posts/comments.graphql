@@ -1,0 +1,10 @@
+query Comments {
+  comments {
+    id
+    user {
+      id
+      firstname
+    }
+    text
+  }
+}
